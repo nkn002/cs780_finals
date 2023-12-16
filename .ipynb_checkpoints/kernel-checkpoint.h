@@ -1,3 +1,6 @@
+#pragma once
+#include "csr.h"
+#include "op.h"
 void transpose3D(array3d_t<float>& a, array3d_t<float>& output, int dim1, int dim2);
 void batch_mm(array3d_t<float>& a, array3d_t<float>& b, array3d_t<float>& output);
 void transpose(array2d_t<float>& a, array2d_t<float>& output);
